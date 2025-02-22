@@ -90,25 +90,35 @@ export const Container = styled.section`
     }
   }
 
-  @media (max-width: 960px) {
-    display: block;
-    text-align: center;
+ 
+ @media (max-width: 960px) {
+  display: flex; /* Change from block to flex */
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 
-    .hard-skills {
-      justify-content: center;
-    }
-    .about-image {
-      display: flex;
-      max-width: 100%;
-      img {
-        margin-top: 2rem;
-        width: 100%;
+  .hard-skills {
+    justify-content: center;
+    align-items: center; /* Ensure items center vertically */
+    display: flex;
+    flex-wrap: wrap; /* Ensure wrapping works */
+    gap: 1.8rem;
+  }
+
+  .about-image {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    img {
+      margin-top: 2rem;
+      width: 100%;
+      filter: grayscale(0);
+      transition: filter 0.5s;
+      &:hover {
         filter: grayscale(0);
-        transition: filter 0.5s;
-        &:hover {
-          filter: grayscale(0);
-        }
       }
     }
   }
+}
+
 `;
