@@ -109,6 +109,10 @@ export const Container = styled.section`
     display: flex;
     justify-content: center;
     max-width: 100%;
+    
+    .flip-card-inner {
+    transform: rotateY(180deg);
+  }
     img {
       margin-top: 2rem;
       width: 100%;
