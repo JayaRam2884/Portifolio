@@ -18,9 +18,7 @@ export function Project() {
               <div className="project-links">
                 <a href="https://github.com/JayaRam2884/FarmersBazaar" target="_blank" rel="noreferrer">
                   <img src={githubIcon} alt="Visit site" /></a>
-                <a href="https://vote.vinayaksingh.com" target="_blank" rel="noreferrer">
-                  <img src={externalLink} alt="Visit site" />
-                </a> </div>
+                 </div>
             </header>
             <div className="body">
               <h3>FarmersBazaar</h3>
@@ -37,8 +35,6 @@ export function Project() {
               <div className="project-links">
                 <a href="https://github.com/JayaRam2884/ViharaYatra" target="_blank" rel="noreferrer">
                   <img src={githubIcon} alt="Visit site" /> </a>
-                <a href="https://ai-chatbot-t8fn.onrender.com" target="_blank" rel="noreferrer">
-                  <img src={externalLink} alt="Visit site" /></a>
               </div>
             </header>
             <div className="body">
