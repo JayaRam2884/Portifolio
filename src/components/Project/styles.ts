@@ -59,7 +59,8 @@ export const Container = styled.section`
           border-bottom: 1px solid var(--green);
           transition: color 0.25s;
           &:hover{
-            color: var(--green);
+            color: var(--black);
+            box-shadow:2px 2px 5px green;
           }
         }
       }
