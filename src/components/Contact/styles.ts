@@ -44,6 +44,7 @@ export const Container = styled.section`
       &:hover{
         background-color: var(--black);
         box-shadow:2px 2px 5px green;
+        color:white;
         a{
           color: #FFF;
         }
