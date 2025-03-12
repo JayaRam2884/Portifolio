@@ -29,7 +29,7 @@ export const Container = styled.section`
       &:hover{
         transform: translateY(-5px);
         background-color: var(--black);
-            box-shadow:2px 2px 5px green;
+      box-shadow:2px 2px 10px green;
       }
 
       header{
