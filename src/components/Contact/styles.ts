@@ -42,7 +42,8 @@ export const Container = styled.section`
         font-weight: 500;
       }
       &:hover{
-        background-color: var(--pink);
+        background-color: var(--black);
+        box-shadow:2px 2px 5px green;
         a{
           color: #FFF;
         }
