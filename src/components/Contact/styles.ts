@@ -42,9 +42,9 @@ export const Container = styled.section`
         font-weight: 500;
       }
       &:hover{
-        background-color: var(--black);
+        background-color: var(--white);
         box-shadow:2px 2px 5px green;
-        color:white;
+        color:black;
         a{
           color: #FFF;
         }
