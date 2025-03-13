@@ -46,7 +46,8 @@ export const Container = styled.section`
         box-shadow:2px 2px 5px green;
         color:black;
         a{
-          color: #FFF;
+          background-color: var(--white);
+          color: black;
         }
       }
     }
