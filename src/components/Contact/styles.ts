@@ -47,7 +47,7 @@ export const Container = styled.section`
         color:black;
         a{
           background-color: var(--white);
-          color: black;
+          color: white;
         }
       }
     }
